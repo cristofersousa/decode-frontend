@@ -16,12 +16,12 @@ Agora, iremos avaliar como você lida no seu dia a dia com desafios que podem su
 
 Abaixo listamos as principais tecnologias que deverão ser analisadas durante o seu desafio, sinta-se livre para sugerir novas tecnologias ou bibliotecas que julgar necessário para o desenvolvimento do desafio.
 
-- Vue
-- Vuetify
-- Vuex  
-- TypeScript 
-- Testes Unitários: Vue-Test-Utils e Jest
-- Testes de Integração: Cypress
+- Vue2 | [referência](https://vuejs.org/)
+- Vuetify | [referência](https://vuetifyjs.com/en/)
+- Vuex | [referência](https://vuex.vuejs.org/)
+- TypeScript | [referência](https://www.typescriptlang.org/)
+- Testes Unitários: [Vue-Test-Utils](https://vue-test-utils.vuejs.org/) e [Jest](https://jestjs.io/pt-BR/)
+- Testes de Integração: [Cypress](https://www.cypress.io/)
 
 ## Desafio: 
 
@@ -79,7 +79,7 @@ Abaixo segue um gif para ver o comportamento de cada section de inclusão do per
 ![](./assets/img/edit.gif)
 
 
-## Conclusão:
+## Resumo geral:
 
 Nosso projeto basicamente lida com duas rotas:
 
@@ -101,6 +101,76 @@ Quando o usuário clicar em salvar as informações elas precisam ser instanciad
 - Firebase | [referência](https://firebase.google.com/?hl=pt-br)
 
 
+## Dicas:
+
+1. Crie um repositório privado no github e sinalize meu usuário: *cristofer-sousa-movile*
+
+2. Crie branch de forma incremental para seu projeto, para que possamos ajudar na sua linha de raciocinio.
+
+3. Crie um projeto adotando o [vue-cli](https://cli.vuejs.org/) com as configurações citadas no tópico tecnologia, abaixo segue um help:
+ 
+ > npm i -g @vue/cli 
+ > vue create decode-project
+
+ ![](./assets/img/004.jpeg)
+
+3.1 Inicie o projeto como vue2 e não com vue3 pois o vuetify não possui suporte para vue3.
+
+```bash
+ Choose a version of Vue.js that you want to start the project
+ with (Use arrow keys)
+❯ 2.x 
+  3.x (Preview)
+```
+
+3.2 Configuração de um setup inicial para o seu projeto usando vue-cli ficaria dessa forma:
+
+![](./assets/img/005.jpeg)
+
+**Observação:** Sinta-se livre para fazer a configuração que for mais viável para você.
+
+4. Crie pull-request necessários para segmentar seu código.
+
+5. Opcional: Caso deseja fazer deploy dele em algum ambiente na nuvem recomendo alguns providers abaixo:
+
+- [Surge](https://surge.sh/)
+- [Heroku](https://www.heroku.com/)
+- [Netlify](https://www.netlify.com/)
+
+6. Wireframes para ajudar mais na concepção do desenvolvimento:
+
+![](https://sharepointmaven.com/wp-content/uploads/2017/01/delve-1.jpg)
+
+![](https://global-infonet.com/wp-content/uploads/2020/10/image-1.png)
+
+![](https://blog.hyperfish.com/hubfs/blog/profileinfo01.png)
+
+> upload profile photo
+
+![](https://global-infonet.com/wp-content/uploads/2020/10/image-2.png)
+
+> upload cover background
+
+![](https://global-infonet.com/wp-content/uploads/2020/10/image-3.png)
 
 
+> Referência de estudo:
+
+0. [Structure APP](https://www.youtube.com/watch?v=dIkPb8krORU&ab_channel=Academind)
+1. [Vuetify + Firebase](https://www.youtube.com/watch?v=FXY1UyQfSFw&list=PL55RiY5tL51qxUbODJG9cgrsVd7ZHbPrt)
+2. [Upload Images](https://www.youtube.com/watch?v=FXY1UyQfSFw&list=PL55RiY5tL51qxUbODJG9cgrsVd7ZHbPrt&ab_channel=Academind)
+3. [Manager State - Vuex](https://www.youtube.com/playlist?list=PL55RiY5tL51pT0DNJraU93FhMzhXxtDAo)
+
+## Conclusão:
+
+Separe o projeto em partes, faça com calma iremos falar no decorrer dos dias sobre a evolução do mesmo. Esse projeto basicamente ele supre 70% da demanda necessária que você verá no dia-a-dia conosco ou em qualquer projeto web que deseja trabalhar. 
+
+- Consumo de API
+- Formulários
+- Biblioteca de Componentes
+- Componentização
+- Gerenciamento de Estado
+- Testes Automatizados
+
+Qualquer grilo, me chame! Boa sorte, queremos você no time! =)
 
