@@ -3,14 +3,27 @@
  > Programa de mentoria para pessoas que atuam como front-end
 
 ## Objetivo: 
-Estamos na reta final para você fazer parte da nossa tripulação, você já concluiu duas etapas. :heart_eyes: :trophy:	
+Estamos na reta final para você fazer parte da nossa tripulação, 
+você já concluiu duas etapas. :heart_eyes: :trophy:	
 
 - [x] Etapa: Processo de seleção de pessoas desenvolvedoras.  *done*
 - [x] Etapa: Processo de seleção avaliando sua expertise técnica. *done*
 - [ ] Etapa: Processo avaliativo desafio técnico e teórico. *to-do*
 - [ ] Etapa: Feedback People to DEcode to Empower. *to-do* 
 
-Agora, iremos avaliar como você lida no seu dia a dia com desafios que podem surgir durante o desenvolvimento de funcionalidades.
+## Agenda
+
+Data      | Tempo         |  Observação 
+--------- | ------        | -------
+12/04     | 30min a 45min | Mentoria
+13/04     | 30min a 45min | Mentoria
+14/04     | 30min a 45min | Mentoria
+15/04     | 30min a 45min | Apresentação
+
+Reforço que esse desafio é um processo de aprendizado, não encare como um desafio 
+avaliativo para vida e sim como um curso incremental adotando tecnologias e processos de 
+desenvolvimento. Nossa intenção, é avaliar como você lida no seu dia a dia com desafios 
+que podem surgir durante o desenvolvimento de funcionalidades.
 
 ## Tecnologias
 
