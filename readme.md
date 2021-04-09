@@ -8,17 +8,19 @@ você já concluiu duas etapas. :heart_eyes: :trophy:
 
 - [x] Etapa: Processo de seleção de pessoas desenvolvedoras.  *done*
 - [x] Etapa: Processo de seleção avaliando sua expertise técnica. *done*
-- [ ] Etapa: Processo avaliativo desafio técnico e teórico. *to-do*
+- [ ] Etapa: Processo avaliativo desafio técnico e teórico. *wip*
 - [ ] Etapa: Feedback People to DEcode to Empower. *to-do* 
 
 ## Agenda
 
-Data      | Tempo         |  Observação 
---------- | ------        | -------
-12/04     | 30min a 45min | Mentoria
-13/04     | 30min a 45min | Mentoria
-14/04     | 30min a 45min | Mentoria
-15/04     | 30min a 45min | Apresentação
+Data      | Tempo         |  Observação | Status
+--------- | ------        | -------     | -----
+09/04     | 30min a 60min | Visão Geral | done
+12/04     | 30min a 45min | Mentoria    | done
+13/04     | 30min a 45min | Mentoria    | done
+14/04     | 30min a 45min | Mentoria    | done
+15/04     | 30min a 45min | Apresentação| wip
+
 
 Reforço que esse desafio é um processo de aprendizado, não encare como um desafio 
 avaliativo para vida e sim como um curso incremental adotando tecnologias e processos de 
@@ -122,12 +124,19 @@ Quando o usuário clicar em salvar as informações elas precisam ser instanciad
 
 3. Crie um projeto adotando o [vue-cli](https://cli.vuejs.org/) com as configurações citadas no tópico tecnologia, abaixo segue um help:
  
+I - Instalar `vue-cli` de forma global
  > npm i -g @vue/cli 
+
+II - Instalar o `yarn` de forma global
+ > npm i -g yarn 
+
+III - Criando um projeto com vue-cli 
  > vue create decode-project
 
+IV - Configuração manual do projeto
  ![](./assets/img/004.jpeg)
 
-3.1 Inicie o projeto como vue2 e não com vue3 pois o vuetify não possui suporte para vue3.
+V - Inicie o projeto como `vue2` e não com `vue3` pois o vuetify não possui suporte para ainda, mais [infos](https://vuetifyjs.com/en/introduction/roadmap/#in-development).
 
 ```bash
  Choose a version of Vue.js that you want to start the project
@@ -136,15 +145,15 @@ Quando o usuário clicar em salvar as informações elas precisam ser instanciad
   3.x (Preview)
 ```
 
-3.2 Configuração de um setup inicial para o seu projeto usando vue-cli ficaria dessa forma:
+VI - Configuração de um setup inicial para o seu projeto usando vue-cli ficaria dessa forma:
 
 ![](./assets/img/005.jpeg)
 
 **Observação:** Sinta-se livre para fazer a configuração que for mais viável para você.
 
-4. Crie pull-request necessários para segmentar seu código.
+4. Crie os pull-request necessários para segmentar seu código.
 
-5. Opcional: Caso deseja fazer deploy dele em algum ambiente na nuvem recomendo alguns providers abaixo:
+5. **Opcional:** Caso deseja fazer deploy dele em algum ambiente na nuvem recomendo alguns providers abaixo:
 
 - [Surge](https://surge.sh/)
 - [Heroku](https://www.heroku.com/)
@@ -164,7 +173,6 @@ Quando o usuário clicar em salvar as informações elas precisam ser instanciad
 
 ![](./assets/img/006.jpeg)
 
-
 > upload cover background
 
 ![](https://global-infonet.com/wp-content/uploads/2020/10/image-3.png)
@@ -179,14 +187,14 @@ Quando o usuário clicar em salvar as informações elas precisam ser instanciad
 
 ## Conclusão:
 
-Separe o projeto em partes, faça com calma iremos falar no decorrer dos dias sobre a evolução do mesmo. Esse projeto basicamente ele supre 70% da demanda necessária que você verá no dia-a-dia conosco ou em qualquer projeto web que deseja trabalhar. 
+Separe o projeto em partes, faça com calma iremos falar no decorrer dos dias sobre a evolução do mesmo. Esse projeto basicamente ele supre 80% da demanda necessária que você verá no dia-a-dia conosco ou em qualquer projeto web que deseja trabalhar. 
 
 - Consumo de API
 - Formulários
 - Biblioteca de Componentes
 - Componentização
+- Roteamento
 - Gerenciamento de Estado
 - Testes Automatizados
 
 Qualquer grilo, me chame! Boa sorte, queremos você no time! =)
-
