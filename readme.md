@@ -52,7 +52,7 @@ Pode ocorrer de ter mais informações que a aplicação julga necessária para 
  - Sidebar: Foto, Nome, Cargo, Cidade/Estado
  - Content: Cards de informações para visualização e edição.
 
- ![](./assets/img/001.jpeg)
+ ![](./assets/img/001.png)
 
 > Na rota da página edição de perfil:
 
@@ -60,7 +60,7 @@ Pode ocorrer de ter mais informações que a aplicação julga necessária para 
 
 3. Precismos fornecer condições para que seja atualizado seu endereço, para isso podemos adotar as informações da API [Postmon](https://postmon.com.br/)
 
-4. Para fazermos upload da foto do usuário podemos adotar a API do [Cloudinary](https://cloudinary.com/documentation/vue_image_and_video_upload);
+4. Para fazermos upload da foto do usuário podemos adotar a API [Cloudinary](https://cloudinary.com/documentation/vue_image_and_video_upload);
 
 
 5. Layout do perfil possui as seguintes sessões para edição:
@@ -72,7 +72,7 @@ Pode ocorrer de ter mais informações que a aplicação julga necessária para 
 - Universidade e formação
 - Interesses e hobbie
 
-![](./assets/img/003.jpeg)
+![](./assets/img/002.png)
 
 Abaixo segue um gif para ver o comportamento de cada section de inclusão do perfil.
 
@@ -148,6 +148,9 @@ Quando o usuário clicar em salvar as informações elas precisam ser instanciad
 > upload profile photo
 
 ![](https://global-infonet.com/wp-content/uploads/2020/10/image-2.png)
+
+![](./assets/img/006.jpeg)
+
 
 > upload cover background
 
